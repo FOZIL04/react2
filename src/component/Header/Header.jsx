@@ -1,7 +1,7 @@
 import home from "..//..//assets/IMAGE (2).svg"
 import tel from "..//..//assets/IMAGE (3).svg"
 import home2 from "..//..//assets/Group.png"
-import css from "..//Header/Header.module.css"
+import css from   "..//Header/Header.module.css"  
 const Header = () => {
     return (
         <>
@@ -25,12 +25,14 @@ const Header = () => {
                                 <button className={css.btn}>Get a free quote</button>
                             </div>
                     </div>
+                </div>
+            </header>
                     <div className={css.q}>
                         <div className="card_left">
-                            <h1 className={css.aaa}>Quality cleaning <br />
+                            <h1 className={css.aaa}>Quality cleaning 
                              for your home</h1>
-                            <p className={css.p}>Condimentum mauris sit cursus amet id non neque pharetra <br />
-                             nulla ornare sed facilisis senectus dapibus nibh ultrices eget <br />
+                            <p className={css.p}>Condimentum mauris sit cursus amet id non neque pharetra 
+                             nulla ornare sed facilisis senectus dapibus nibh ultrices eget 
                               suscipit aliquet et nulla magna lacus penatibus.</p>
                               <div className={css.ppp}>
                                 <button className={css.btn1}>Get a free quote</button>
@@ -47,8 +49,6 @@ const Header = () => {
                             <img src={home2} alt="" />
                         </div>
                     </div>
-                </div>
-            </header>
         </>
     )
 }
