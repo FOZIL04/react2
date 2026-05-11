@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
@@ -63,12 +65,14 @@ a {
   background-color: #0075FF;
   cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
   transition: 1s;
   color: #211F54;
   background-color: #ffffff;
   border: 2px solid #EFF0F6;
 }
+
 .img_links {
   display: flex;
   align-items: center;
@@ -79,27 +83,29 @@ a {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  
- width: 500px;
+
+  width: 500px;
   text-align: center;
   justify-content: center;
 }
+
 .btn1 {
   display: flex;
   align-items: center;
   margin: 0 auto;
- 
- 
+
+
   text-align: center;
   justify-content: center;
   margin-right: 1px;
 }
+
 .btn2 {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  
-  
+
+
   text-align: center;
   justify-content: center;
   margin-left: 1px;
@@ -147,16 +153,18 @@ a {
   background-color: #0075FF;
   cursor: pointer;
 }
-.btn1111:hover{
+
+.btn1111:hover {
   transition: 1s;
   color: #211F54;
   background-color: #ffffff;
   border: 2px solid #EFF0F6;
 }
+
 .tel {
   display: flex;
   align-items: center;
-  
+
 }
 
 .clo1 {
@@ -199,11 +207,13 @@ a {
   width: 648px;
   margin: 0 auto;
 }
-.asdf{
+
+.asdf {
   display: flex;
   align-items: center;
   gap: 15px;
 }
+
 .kalendar_text {
   font-family: Roboto;
   font-weight: 700;
@@ -318,13 +328,13 @@ a {
 }
 
 .btn3 {
-  width: 210px;
+  width: 220px;
   height: 70px;
   border-radius: 14px;
   font-family: Roboto;
   font-weight: 700;
   font-style: Regular;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
   border: none;
@@ -472,12 +482,14 @@ a {
   background-color: #0075FF;
   cursor: pointer;
 }
-.btn111:hover{
+
+.btn111:hover {
   transition: 1s;
   color: #211F54;
   background-color: #ffffff;
   border: 2px solid #EFF0F6;
 }
+
 .uzun {
   width: 1220px;
   height: 1px;
@@ -505,7 +517,7 @@ a {
   font-family: Roboto;
   font-weight: 700;
   font-style: Bold;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 20px;
   letter-spacing: 0%;
   border: none;
@@ -758,12 +770,14 @@ a {
   cursor: pointer;
   margin-top: 40px;
 }
-.btn1112:hover{
+
+.btn1112:hover {
   transition: 1s;
   color: #211F54;
   background-color: #ffffff;
   border: 2px solid #EFF0F6;
 }
+
 .h1 {
   font-weight: 700;
   font-style: Bold;
@@ -832,24 +846,28 @@ a {
   background-color: #0075FF;
   cursor: pointer;
 }
-.btn333:hover{
+
+.btn333:hover {
   transition: 1s;
   color: #211F54;
   background-color: #ffffff;
   border: 2px solid #EFF0F6;
 }
+
 .j {
   width: 1220px;
   height: 1px;
   background-color: #DCDDEB;
-margin-left: 35px;
+  margin-left: 35px;
 }
-.hour2{
+
+.hour2 {
   display: flex;
-justify-content: space-between;
-padding: 55px;
+  justify-content: space-between;
+  padding: 55px;
 }
-.df{
+
+.df {
   display: flex;
   align-items: center;
 }
@@ -858,33 +876,32 @@ padding: 55px;
 
 
 .up {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    width: 54px;
-    height: 54px;
-    background-color: #0075FF;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    z-index: 100;
-    opacity: 0;
-    transition: .3s linear;
-    color: #ffffff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 54px;
+  height: 54px;
+  background-color: #0075FF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 100;
+  opacity: 0;
+  transition: .3s linear;
+  color: #ffffff;
 }
 
 
 
-.fa-chevron-up{
-    font-size: 24px;
-    color: white;
-    z-index: 999;
+.fa-chevron-up {
+  font-size: 24px;
+  color: white;
+  z-index: 999;
 }
 
 .up.active {
-    opacity: 1;
-    transform: translateY(-10px);
+  opacity: 1;
+  transform: translateY(-10px);
 }
-
